@@ -1,0 +1,1469 @@
+2013-01-28T20:26:11+11:00 INFO (6): <pre>array(1) {
+  [&quot;modules&quot;] =&gt; array(3) {
+    [&quot;cms&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(21) &quot;Cms_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(19) &quot;Cms_IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+    [&quot;default&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(17) &quot;AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(15) &quot;IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+    [&quot;user&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(22) &quot;User_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(20) &quot;User_IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+  }
+}
+</pre>
+2013-01-28T20:26:57+11:00 INFO (6): <pre>array(1) {
+  [&quot;modules&quot;] =&gt; array(3) {
+    [&quot;cms&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(21) &quot;Cms_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(19) &quot;Cms_IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+    [&quot;default&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(17) &quot;AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(15) &quot;IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+    [&quot;user&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(22) &quot;User_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(20) &quot;User_IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+  }
+}
+</pre>
+2013-01-28T20:28:02+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:28:02+11:00 INFO (6): <pre>array(1) {
+  [&quot;modules&quot;] =&gt; array(3) {
+    [&quot;cms&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(21) &quot;Cms_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(19) &quot;Cms_IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+    [&quot;default&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(17) &quot;AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(15) &quot;IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+    [&quot;user&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(22) &quot;User_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(20) &quot;User_IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+  }
+}
+</pre>
+2013-01-28T20:28:59+11:00 INFO (6): <pre>NULL
+</pre>
+2013-01-28T20:28:59+11:00 INFO (6): <pre>array(1) {
+  [&quot;modules&quot;] =&gt; array(3) {
+    [&quot;cms&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(21) &quot;Cms_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; NULL
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(19) &quot;Cms_IndexController&quot;
+          [&quot;actions&quot;] =&gt; NULL
+        }
+      }
+    }
+    [&quot;default&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(17) &quot;AnotherController&quot;
+          [&quot;actions&quot;] =&gt; NULL
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(15) &quot;IndexController&quot;
+          [&quot;actions&quot;] =&gt; NULL
+        }
+      }
+    }
+    [&quot;user&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(22) &quot;User_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; NULL
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(20) &quot;User_IndexController&quot;
+          [&quot;actions&quot;] =&gt; NULL
+        }
+      }
+    }
+  }
+}
+</pre>
+2013-01-28T20:34:43+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:36:03+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:39:52+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:44:26+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:45:35+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:46:58+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:47:49+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:48:37+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:49:06+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:49:06+11:00 INFO (6): <pre>array(1) {
+  [&quot;modules&quot;] =&gt; array(3) {
+    [&quot;cms&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(21) &quot;Cms_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(19) &quot;Cms_IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+    [&quot;default&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(17) &quot;AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(15) &quot;IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+    [&quot;user&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(22) &quot;User_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(20) &quot;User_IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+  }
+}
+</pre>
+2013-01-28T20:50:17+11:00 INFO (6): <pre>array(28) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+  [2] =&gt; string(4) &quot;init&quot;
+  [3] =&gt; string(8) &quot;initView&quot;
+  [4] =&gt; string(6) &quot;render&quot;
+  [5] =&gt; string(12) &quot;renderScript&quot;
+  [6] =&gt; string(13) &quot;getViewScript&quot;
+  [7] =&gt; string(10) &quot;getRequest&quot;
+  [8] =&gt; string(10) &quot;setRequest&quot;
+  [9] =&gt; string(11) &quot;getResponse&quot;
+  [10] =&gt; string(11) &quot;setResponse&quot;
+  [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+  [12] =&gt; string(12) &quot;getInvokeArg&quot;
+  [13] =&gt; string(9) &quot;getHelper&quot;
+  [14] =&gt; string(13) &quot;getHelperCopy&quot;
+  [15] =&gt; string(18) &quot;setFrontController&quot;
+  [16] =&gt; string(18) &quot;getFrontController&quot;
+  [17] =&gt; string(11) &quot;preDispatch&quot;
+  [18] =&gt; string(12) &quot;postDispatch&quot;
+  [19] =&gt; string(6) &quot;__call&quot;
+  [20] =&gt; string(8) &quot;dispatch&quot;
+  [21] =&gt; string(3) &quot;run&quot;
+  [22] =&gt; string(8) &quot;getParam&quot;
+  [23] =&gt; string(8) &quot;setParam&quot;
+  [24] =&gt; string(8) &quot;hasParam&quot;
+  [25] =&gt; string(12) &quot;getAllParams&quot;
+  [26] =&gt; string(7) &quot;forward&quot;
+  [27] =&gt; string(8) &quot;redirect&quot;
+}
+</pre>
+2013-01-28T20:50:17+11:00 INFO (6): <pre>array(1) {
+  [&quot;modules&quot;] =&gt; array(3) {
+    [&quot;cms&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(21) &quot;Cms_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(19) &quot;Cms_IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+    [&quot;default&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(17) &quot;AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(15) &quot;IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+    [&quot;user&quot;] =&gt; array(1) {
+      [&quot;controllers&quot;] =&gt; array(2) {
+        [&quot;Another&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(22) &quot;User_AnotherController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+        [&quot;Index&quot;] =&gt; array(2) {
+          [&quot;className&quot;] =&gt; string(20) &quot;User_IndexController&quot;
+          [&quot;actions&quot;] =&gt; array(28) {
+            [0] =&gt; string(11) &quot;indexAction&quot;
+            [1] =&gt; string(11) &quot;__construct&quot;
+            [2] =&gt; string(4) &quot;init&quot;
+            [3] =&gt; string(8) &quot;initView&quot;
+            [4] =&gt; string(6) &quot;render&quot;
+            [5] =&gt; string(12) &quot;renderScript&quot;
+            [6] =&gt; string(13) &quot;getViewScript&quot;
+            [7] =&gt; string(10) &quot;getRequest&quot;
+            [8] =&gt; string(10) &quot;setRequest&quot;
+            [9] =&gt; string(11) &quot;getResponse&quot;
+            [10] =&gt; string(11) &quot;setResponse&quot;
+            [11] =&gt; string(13) &quot;getInvokeArgs&quot;
+            [12] =&gt; string(12) &quot;getInvokeArg&quot;
+            [13] =&gt; string(9) &quot;getHelper&quot;
+            [14] =&gt; string(13) &quot;getHelperCopy&quot;
+            [15] =&gt; string(18) &quot;setFrontController&quot;
+            [16] =&gt; string(18) &quot;getFrontController&quot;
+            [17] =&gt; string(11) &quot;preDispatch&quot;
+            [18] =&gt; string(12) &quot;postDispatch&quot;
+            [19] =&gt; string(6) &quot;__call&quot;
+            [20] =&gt; string(8) &quot;dispatch&quot;
+            [21] =&gt; string(3) &quot;run&quot;
+            [22] =&gt; string(8) &quot;getParam&quot;
+            [23] =&gt; string(8) &quot;setParam&quot;
+            [24] =&gt; string(8) &quot;hasParam&quot;
+            [25] =&gt; string(12) &quot;getAllParams&quot;
+            [26] =&gt; string(7) &quot;forward&quot;
+            [27] =&gt; string(8) &quot;redirect&quot;
+          }
+        }
+      }
+    }
+  }
+}
+</pre>
+2013-01-29T10:19:03+11:00 INFO (6): <pre>array(2) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+}
+</pre>
+2013-01-29T10:21:26+11:00 INFO (6): <pre>array(2) {
+  [0] =&gt; string(11) &quot;indexAction&quot;
+  [1] =&gt; string(11) &quot;__construct&quot;
+}
+</pre>
