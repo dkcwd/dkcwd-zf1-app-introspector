@@ -1,5 +1,10 @@
 <?php
-
+/** 
+ * @link http://github.com/dkcwd/dkcwd-zf1-app-introspector for the canonical source repository
+ * @author Dave Clark dave@dkcwd.com.au 
+ * @copyright Dave Clark 2013
+ * @license http://opensource.org/licenses/mit-license.php
+ */
 require_once 'library\Dkcwd\AppIntrospector\AppIntrospector.php';
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'MockController.php';
 require_once 'PHPUnit\Framework\TestCase.php';
