@@ -1,4 +1,12 @@
 <?php 
+/** 
+ * A class for use with Zend Framework (v1) applications. 
+ * Provides a way to quickly generate an array representing the structure of your application.
+ * @link http://github.com/dkcwd/dkcwd-zf1-app-introspector for the canonical source repository
+ * @author Dave Clark dave@dkcwd.com.au 
+ * @copyright Dave Clark 2013
+ * @license http://opensource.org/licenses/mit-license.php
+ */
 class Dkcwd_AppIntrospector_AppIntrospector
 {    
     /**
