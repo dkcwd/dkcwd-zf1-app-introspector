@@ -91,23 +91,23 @@ class Dkcwd_AppIntrospector_AppIntrospector
             $i = 0;
             
             while ($className == '') {                
-	            if (feof($fp)) break;
-	            $buffer .= fread($fp, 512);
-	            $tokens = token_get_all($buffer);
-	            
-	            // if we can't find a '{' in the 512 bytes we read into $buffer
-	            // we should get the next 512 bytes from the file and try again
-	            if (strpos($buffer, '{') === false) continue;
-	            for ($i=0; $i < count($tokens); $i++) {
-	                if ($tokens[$i][0] === T_CLASS) {	                    	                    
-	                    for ($j=$i+1; $j < count($tokens); $j++) {
-	                        if ($tokens[$j] === '{') {	                            
-	                            $className = $tokens[$i+2][1];
-	                            return $className;
-	                        }
+	        if (feof($fp)) break;
+	        $buffer .= fread($fp, 512);
+	        $tokens = token_get_all($buffer);
+	           
+	        // if we can't find a '{' in the 512 bytes we read into $buffer
+	        // we should get the next 512 bytes from the file and try again
+	        if (strpos($buffer, '{') === false) continue;
+	        for ($i=0; $i < count($tokens); $i++) {
+	            if ($tokens[$i][0] === T_CLASS) {	                    	                    
+	                for ($j=$i+1; $j < count($tokens); $j++) {
+	                    if ($tokens[$j] === '{') {	                            
+	                        $className = $tokens[$i+2][1];
+	                        return $className;
 	                    }
 	                }
 	            }
+	        }
             }
         }
         
@@ -189,78 +189,77 @@ class Dkcwd_AppIntrospector_AppIntrospector
         // should be sufficient for handling this.  
         switch ($module) {
             case $this->defaultApplicationModuleName:
-	    	    // change working directory to $this->applicationPath
-	    	    chdir($this->applicationPath);
+	        // change working directory to $this->applicationPath
+	    	chdir($this->applicationPath);
 	    	    
-	    	    // search for 'controllers' folder
-	    	    $controllersfolder = glob('controllers');
+	    	// search for 'controllers' folder
+	    	$controllersfolder = glob('controllers');
 	    	    
-	    	    // if we have a result for the controllers folder get the controllers
-	    	    if (is_array($controllersfolder)) {
-	    	        chdir($this->applicationPath . DIRECTORY_SEPARATOR . $controllersfolder[0]);	    	        
-	    	        $controllers = glob('*Controller.php');
+	    	// if we have a result for the controllers folder get the controllers
+	    	if (is_array($controllersfolder)) {
+	    	    chdir($this->applicationPath . DIRECTORY_SEPARATOR . $controllersfolder[0]);	    	        
+	    	    $controllers = glob('*Controller.php');
 	    	        
-	    	        if (is_array($controllers)) {
-	    	            foreach($controllers as $controller) {
-	    	                if (is_string($controller)) {
-	    	                    $tempArray = explode('Controller.php', $controller);
-	    	                    $con = $tempArray[0];
-	    	                    $controllerFullName = strstr($controller, '.php', true);
+	    	    if (is_array($controllers)) {
+	    	        foreach($controllers as $controller) {
+	    	            if (is_string($controller)) {
+	    	                $tempArray = explode('Controller.php', $controller);
+	    	                $con = $tempArray[0];
+	    	                $controllerFullName = strstr($controller, '.php', true);
 	    	                    
-	    	                    $data = array(
-	    	                        'module' => $module,
-	    	                        'controller' => $con,
-	    	                        'controllerPath' => getcwd() . DIRECTORY_SEPARATOR . $controller,
-	    	                        'controllerFullName' => $controllerFullName,
-	    	                    );
+	    	                $data = array(
+	    	                    'module' => $module,
+	    	                    'controller' => $con,
+	    	                    'controllerPath' => getcwd() . DIRECTORY_SEPARATOR . $controller,
+	    	                    'controllerFullName' => $controllerFullName,
+	    	                );
 	    	                    
-	    	                    $this->appStructure['modules'][$data['module']]['controllers'][$data['controller']]['className']
-	    	                        = $this->getClassNameFromControllerFile($data['controllerPath']);
-	    	                    $this->appStructure['modules'][$data['module']]['controllers'][$data['controller']]['actions']
-	    	                        = $this->getControllerActions($data['controllerPath']);
+	    	                $this->appStructure['modules'][$data['module']]['controllers'][$data['controller']]['className']
+	    	                    = $this->getClassNameFromControllerFile($data['controllerPath']);
+	    	                $this->appStructure['modules'][$data['module']]['controllers'][$data['controller']]['actions']
+	    	                    = $this->getControllerActions($data['controllerPath']);
 	    	                }
 	    	            }
 	    	        }
 	    	    }
-	    	    break;
+	    	break;
 	    	    
-	    	default:
-	    	    // change working directory to $this->modulePath . DIRECTORY_SEPARATOR . $module
-	    	    $moduleSpecificDirectory = $this->modulePath . DIRECTORY_SEPARATOR . $module;
-	    	    chdir($moduleSpecificDirectory);
+	    default:
+	        // change working directory to $this->modulePath . DIRECTORY_SEPARATOR . $module
+	        $moduleSpecificDirectory = $this->modulePath . DIRECTORY_SEPARATOR . $module;
+	        chdir($moduleSpecificDirectory);
 	    	    
-	    	    // search for 'controllers' folder
-	    	    $controllersfolder = glob('controllers');
+	        // search for 'controllers' folder
+	        $controllersfolder = glob('controllers');
 	    	    
-	    	    // if we have a result for the controllers folder get the controllers
-	    	    if (is_array($controllersfolder)) {
-	    	        chdir($moduleSpecificDirectory . DIRECTORY_SEPARATOR . $controllersfolder[0]);
+	        // if we have a result for the controllers folder get the controllers
+	        if (is_array($controllersfolder)) {
+	            chdir($moduleSpecificDirectory . DIRECTORY_SEPARATOR . $controllersfolder[0]);
 	    	        
-	    	        $controllers = glob('*Controller.php');
+	            $controllers = glob('*Controller.php');
 	    	        
-	    	        if (is_array($controllers)) {
-	    	            foreach($controllers as $controller) {
-	    	                if (is_string($controller)) {
-	    	                    $tempArray = explode('Controller.php', $controller);
-	    	                    $con = $tempArray[0];
-	    	                    $controllerFullName = strstr($controller, '.php', true);
-	    	                    $data = array(
-	    	                        'module' => $module,
-	    	                        'controller' => $con,
-	    	                        'controllerPath' => getcwd() . DIRECTORY_SEPARATOR . $controller,
-	    	                        'controllerFullName' => $controllerFullName,
-	    	                    );
+	            if (is_array($controllers)) {
+	                foreach($controllers as $controller) {
+	                    if (is_string($controller)) {
+	                        $tempArray = explode('Controller.php', $controller);
+	                        $con = $tempArray[0];
+	                        $controllerFullName = strstr($controller, '.php', true);
+	                        $data = array(
+	                            'module' => $module,
+	                            'controller' => $con,
+	                            'controllerPath' => getcwd() . DIRECTORY_SEPARATOR . $controller,
+	                            'controllerFullName' => $controllerFullName,
+	                        );
 	    	                    
-	    	                    $this->appStructure['modules'][$data['module']]['controllers'][$data['controller']]['className']
-	    	                        = $this->getClassNameFromControllerFile($data['controllerPath']);
-	    	                    
-	    	                    $this->appStructure['modules'][$data['module']]['controllers'][$data['controller']]['actions']
-	    	                        = $this->getControllerActions($data['controllerPath']);
-	    	                }
-	    	            }
-	    	        }
-	    	    }
-	    	    break;
+	                        $this->appStructure['modules'][$data['module']]['controllers'][$data['controller']]['className']
+	                            = $this->getClassNameFromControllerFile($data['controllerPath']);
+	                        
+	                        $this->appStructure['modules'][$data['module']]['controllers'][$data['controller']]['actions']
+	                            = $this->getControllerActions($data['controllerPath']);
+	                    }
+	                }
+	            }
+	        }	    
         }
     }
     
