@@ -28,6 +28,7 @@ class Dkcwd_AppIntrospector_AppIntrospectorTest extends PHPUnit_Framework_TestCa
 		$appPath = realpath(__DIR__ . DS . 'mock-application' . DS . 'application');
 		// then define a valid module path
 		$modPath = $appPath . DS . 'modules';
+		
 		$this->Dkcwd_AppIntrospector_AppIntrospector = new Dkcwd_AppIntrospector_AppIntrospector(
 		    $appPath,
 		    $modPath
@@ -58,7 +59,7 @@ class Dkcwd_AppIntrospector_AppIntrospectorTest extends PHPUnit_Framework_TestCa
 	    // The methods used in __construct() are setApplicationPath($applicationPath)
 	    // and setModulePath($modulePath) which are tested separately in this suite.
 	    $actual = $this->Dkcwd_AppIntrospector_AppIntrospector->__construct(
-            realpath(__DIR__ . DS . 'mock-application' . DS . 'application')
+                realpath(__DIR__ . DS . 'mock-application' . DS . 'application')
 	    );
 	    
 	    $this->assertInstanceOf('Dkcwd_AppIntrospector_AppIntrospector', $actual);
@@ -134,7 +135,7 @@ class Dkcwd_AppIntrospector_AppIntrospectorTest extends PHPUnit_Framework_TestCa
 	            $this->Dkcwd_AppIntrospector_AppIntrospector->modulePath . DS . 'cms' . DS . 'controllers' . DS . 'IndexController.php'
 	    );	     
 	    
-		$this->assertSame($actual, $expected);		
+	    $this->assertSame($actual, $expected);		
 	}
 
 	/**
@@ -156,7 +157,7 @@ class Dkcwd_AppIntrospector_AppIntrospectorTest extends PHPUnit_Framework_TestCa
 	 */
 	public function testSetModulePathWorksAsExpectedWithValidDirectory() 
 	{		
-	    // set the path to the current directory this file resides in 
+	        // set the path to the current directory this file resides in 
 		$this->Dkcwd_AppIntrospector_AppIntrospector->setModulePath(
 		    realpath(__DIR__)
 		);
